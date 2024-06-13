@@ -1,0 +1,6 @@
+@Esess.Appointment.API_HostAddress = http://localhost:5239
+
+GET {{Esess.Appointment.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

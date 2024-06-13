@@ -1,0 +1,6 @@
+@Esess.Notification.API_HostAddress = http://localhost:5111
+
+GET {{Esess.Notification.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
