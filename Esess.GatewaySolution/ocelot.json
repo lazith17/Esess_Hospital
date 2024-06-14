@@ -39,10 +39,10 @@
       ],
       "UpstreamPathTemplate": "/api/patient/{id}",
       // "UpstreamHttpMethod": [ "Get", "DELETE" ],
-      "UpstreamHttpMethod": [ "DELETE" ],
-      "AuthenticationOptions": {
-        "AuthenticationProviderKey": "Bearer"
-      }
+      "UpstreamHttpMethod": [ "DELETE" ]
+      //"AuthenticationOptions": {
+      //  "AuthenticationProviderKey": "Bearer"
+      //}
     },
 
     // Patient API - Insert or Update
@@ -56,10 +56,10 @@
         }
       ],
       "UpstreamPathTemplate": "/api/patient",
-      "UpstreamHttpMethod": [ "POST", "PUT" ],
-      "AuthenticationOptions": {
-        "AuthenticationProviderKey": "Bearer"
-      }
+      "UpstreamHttpMethod": [ "POST", "PUT" ]
+      //"AuthenticationOptions": {
+      //  "AuthenticationProviderKey": "Bearer"
+      //}
     }
 
   ],

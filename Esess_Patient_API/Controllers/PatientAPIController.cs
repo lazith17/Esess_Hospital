@@ -3,10 +3,7 @@ using Esess.PatientAPI.Data;
 using Esess.PatientAPI.Models;
 using Esess.PatientAPI.Models.DTO;
 using Esess.PatientAPI.Services;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace Esess.PatientAPI.Controllers
 {
@@ -76,7 +73,7 @@ namespace Esess.PatientAPI.Controllers
         }
 
         //[Authorize(Roles = "ADMIN")]
-        [Authorize]
+        //[Authorize]
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeletePatient(int id)
         {
